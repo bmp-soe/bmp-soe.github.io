@@ -4,47 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protfolio</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        .colour-box {
-            width: 150px;
-            height: 150px;
-            background-color: red;
-            border: 2px solid black;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-        }
-
-    </style>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body class="bg-black montserrat">
+<body class="bg-black montserrat text-light">
     <nav class="navbar navbar-expand-lg fixed-top py-3" style="background-color: transparent;" data-bs-theme="dark">
         <div class="container">
+            <img src="img/icon.png" alt="Logo" height="40" class="me-2">
             <a class="navbar-brand libre-baskerville fs-3" href="#">
-                <img src="img/icon.png" alt="Logo" height="45"> &nbsp;Prot<span class="text-info">folio</span>
+                Prot<span class="text-info">folio</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item me-4">
+                    <li class="nav-item me-5">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item me-4">
+                    <li class="nav-item me-5">
                         <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="nav-item me-4">
+                    <li class="nav-item me-5">
                         <a class="nav-link" href="#">Skill</a>
                     </li>
-                    <li class="nav-item me-4">
+                    <li class="nav-item me-5">
                         <a class="nav-link" href="#">Service</a>
                     </li>
                     <li class="nav-item">
@@ -57,11 +43,26 @@
 
     <section class="">
         <img src="img/background.jpg" alt="" class="vw-100 vh-100 object-fit-cover" style="object-position: top;">
-        <div class="bg-black opacity-50 vh-100 vw-100 align-content-center position-absolute top-0">
-            <h1 class="d-flex text-white justify-content-center fw-bold libre-baskerville">Hello! I'm <span class="text-info">&nbsp;Front-End Developer</span></h1>
-            <p class="d-block mx-auto text-white text-center w-50">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, sed placeat est sit nam illum molestiae quisquam et aperiam! Eligendi ipsam veniam facere ipsa accusamus, dolores cumque unde totam. Neque!
-            </p>
+        <div class="bg-black bg-opacity-50 vh-100 vw-100 position-absolute top-0">
+            <div class="container">
+                <div class="row justify-content-center align-content-center vh-100">
+                    <div class="col-12">
+                        <h1 class="text-center fw-bold libre-baskerville mb-3">Hello! I'm <span class="text-info">&nbsp;Front-End Developer</span></h1>
+                    </div>
+                    <div class="col-8">
+                        <p class="text-center">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, sed placeat est sit nam illum molestiae quisquam et aperiam!
+                        </p>
+                    </div>
+                    <div class="col-12 text-center fs-5">
+                        <a href="#" class="text-light me-3"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fa-brands fa-behance"></i></a>
+                        <a href="#" class="text-light"><i class="fa-brands fa-facebook-messenger"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="black-tran">Red</div>
